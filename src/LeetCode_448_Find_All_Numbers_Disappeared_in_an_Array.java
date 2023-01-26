@@ -1,8 +1,8 @@
 import java.util.*;
 
-public class LeetCode_448_Solution {
+public  class LeetCode_448_Find_All_Numbers_Disappeared_in_an_Array {
 
-    public ArrayList<Integer> findDisappearedNumbers(int[] nums) {
+    public static ArrayList<Integer> findDisappearedNumbers(int[] nums) {
 
         ArrayList<Integer> result = new ArrayList<>();
         for (int i : nums) {
@@ -19,7 +19,7 @@ public class LeetCode_448_Solution {
         return result;
     }
 
-    public ArrayList<Integer> findDisappearedNumbers2(int[] nums) {
+    public static ArrayList<Integer> findDisappearedNumbers2(int[] nums) {
 
         Set<Integer> set = new HashSet<>();
         ArrayList<Integer> result = new ArrayList<>();

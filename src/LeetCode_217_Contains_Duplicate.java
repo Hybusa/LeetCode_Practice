@@ -2,9 +2,9 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class LeetCode_217_Solution {
+public class LeetCode_217_Contains_Duplicate {
 
-    public boolean containsDuplicate(int[] nums) {
+    public static boolean containsDuplicate(int[] nums) {
 
         Set<Integer> set= new HashSet<>();
 
@@ -16,7 +16,7 @@ public class LeetCode_217_Solution {
         return false;
     }
 
-    public boolean containsDuplicate2(int[] nums) {
+    public static boolean containsDuplicate2(int[] nums) {
         Arrays.sort(nums);
 
         for(int i=1 ; i < nums.length ; i++)

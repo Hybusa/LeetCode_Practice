@@ -1,8 +1,8 @@
 import java.util.Arrays;
 
-public class LeetCode_136_Solution {
+public class LeetCode_136_Single_Number {
 
-    public int singleNumber(int[] nums) {
+    public static int singleNumber(int[] nums) {
 
         int result = 0;
 
@@ -12,7 +12,7 @@ public class LeetCode_136_Solution {
         return result;
     }
 
-    public int singleNumber2(int[] nums) {
+    public static int singleNumber2(int[] nums) {
 
         Arrays.sort(nums);
         for (int i = 0; i < nums.length - 1; i += 2) {

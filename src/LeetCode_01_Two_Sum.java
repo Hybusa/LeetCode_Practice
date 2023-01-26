@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
-public class LeetCode_01_Solution {
-    public int[] twoSumSolution1(int[] nums, int target) {
+public class LeetCode_01_Two_Sum {
+    public static int[] twoSumSolution1(int[] nums, int target) {
 
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
@@ -13,7 +13,7 @@ public class LeetCode_01_Solution {
         return nums;
     }
 
-    public int[] twoSumSolution2(int[] nums, int target) {
+    public static int[] twoSumSolution2(int[] nums, int target) {
         HashMap<Integer, Integer> hashMap = new HashMap<>();
 
         for (int i = 0; i < nums.length; i++) {
@@ -26,7 +26,7 @@ public class LeetCode_01_Solution {
         return nums;
     }
 
-    public int[] twoSumSolution3(int[] nums, int target) {
+    public static int[] twoSumSolution3(int[] nums, int target) {
         HashMap<Integer, Integer> hashMap = new HashMap<>();
 
         for (int i = 0; i < nums.length; i++) {
